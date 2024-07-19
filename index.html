@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="modal">
+        <div class="header-modal">
+            <h6>Create Bank Account</h6>
+            <span>x</span>
+        </div>
+        <div class="main-modal">
+            <div class="header-main">
+                <div class="box">
+                    <p><strong>Profile</strong></p>
+                </div>
+                <div class="box">
+                    <div class="avatar">
+                        <img src="placeholder.webp" alt="">
+                    </div>
+                    <div class="btns-actions">
+                        <button class="grenn">Upload Photo</button>
+                        <button class="red">cancel</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-main">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Account Holder Name</label>
+                        <input type="text" id="name" placeholder="Enter Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="number">Phone number</label>
+                        <input type="text" id="number" placeholder="Enter Number">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Select Currency</label>
+                        <select name="" id="">
+                            <option value="USD">USD</option>
+                            <option value="MZN">MZN</option>
+                            <option value="EURO">EUROS</option>
+                        </select>
+                    </div>
+                    <div class="form-group rows">
+                        <div class="form-group">
+                            <label for="rate">Interest Rate</label>
+                            <input type="text" id="rate" placeholder="Interest Rate">
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Expiry Date</label>
+                            <input type="date" id="date" placeholder="Select Date">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="amount">Amount</label>
+                        <input type="text" id="amount" placeholder="Enter Amount">
+                    </div>
+                    <div class="form-group">
+                        <label for="status">Selet Status</label>
+                        <select name="status" id="Status">
+                            <option value="active">Active</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <button>Create Account</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

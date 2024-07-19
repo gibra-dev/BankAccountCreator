@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 5% 0;
+    font-family: "Inter", sans-serif;
+}
+
+.modal {
+    width: 750px;
+    padding: 1rem;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.header-modal {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.header-modal h6 {
+    font-size: 1.5rem;
+}
+
+.main-modal .box {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.main-modal .box p {
+    padding-bottom: 1rem;
+}
+
+.main-modal .btns-actions button {
+    width: 140px;
+    padding: .625rem 1rem;
+    border: none;
+    font-size: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    color: #fff;
+    transition: .5s ease-in-out;
+}
+
+.main-modal .btns-actions .grenn {
+    background: rgb(85, 230, 85);
+}
+
+.main-modal .btns-actions .red {
+    background: rgb(204, 57, 57);
+}
+
+.main-modal .btns-actions .grenn:hover {
+    background: transparent;
+    border: 1px solid rgb(85, 230, 85);
+    color: #000;
+}
+
+.main-modal .btns-actions .red:hover {
+    background: transparent;
+    border: 1px solid rgb(204, 57, 57);
+    color: #000;
+}
+
+.main-modal .main-main {
+    padding: 1rem 0;
+}
+
+.main-modal .main-main .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.main-modal .main-main .rows {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.main-modal .main-main .rows .form-group {
+    flex: 1;
+}
+
+.main-modal .main-main label {
+    font-size: 1.125rem;
+    margin-bottom: 12px;
+}
+
+.main-modal .main-main input {
+    padding: .625rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.main-modal .main-main select {
+    padding: .625rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.main-modal .main-main input:focus {
+    border: 1px solid rgb(85, 230, 85);
+}
+
+.main-modal .main-main button {
+    padding: .625rem 1rem;
+    background: rgb(85, 230, 85);
+    border: none;
+    font-size: 1rem;
+    border-radius: 1rem;
+    color: #fff;
+    transition: .5s ease-in-out;
+}
+
+.main-modal .main-main button:hover {
+    background: transparent;
+    border: 1px solid rgb(85, 230, 85);
+    color: #000;
+}
